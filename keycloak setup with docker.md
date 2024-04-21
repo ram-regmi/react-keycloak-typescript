@@ -1,5 +1,7 @@
+# keycloak setup with docker
 
 After writing `docker-compose.yml` file
+
 ```docker
 
 version: '3.7'
@@ -22,6 +24,22 @@ From the terminal run following command and press `enter`
 ```
     sudo docker-compose up -d
 ```
+if container for keycloak already exists then run the following command to start that container
+```
+  sudo docker start container-name
+
+```
+`container-name`s can be seen by using `sudo docker ps -a`
+
+![](./src/assets/dockerlist.png)
+
+Here name of the docker container is `reactkeycloack-keycloak-1`
+
+so, command to start if stopped and exists, it would be  `sudo docker start reactkeycloack-keycloak-1` 
+
+
+### next
+
 In the browser: type the following
 ```
     http://localhost:8080
