@@ -16,6 +16,19 @@ click on `Clients` --> `Create client`
 
 ![](./src/assets/7.png)
 
+if react project is not ready yet make one by entering following command on terminal,
+
+```
+    npm create vite@latest react-app-name -- --template react-ts
+
+    cd react-app-name
+
+    npm i
+
+    npm run dev
+
+```
+
 since the vite-react default host address is `http://localhost:5173`
 
 ![](./src/assets/8.png)
